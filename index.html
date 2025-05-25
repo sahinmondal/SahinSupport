@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sahin.Support</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css_h.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+
+
+  <header>
+    <div class="container header-container">
+      <a href="#" class="logo">Sahin.Support</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+      <h1 id="text">Innovative Technology Solutions for Your Business</h1>
+      <p>Your Trust Partner for All Home Electrical & Electronics Local Services</p>
+      <a href="#" class="btn-primary">Get Started</a>
+    </div>
+  </section>
+  
+  
+<!-- Features -->
+<section class="features">
+  <div class="container">
+    <div class="feature-grid">
+      <div class="feature-card">
+        <h3>Reliable</h3>
+        <p>We take pride in delivering dependable and consistent services. 
+		Our team ensures every task is completed with precision and care,
+		"Timely service, expert technicians, and guaranteed satisfaction."</p>
+      </div>
+      <div class="feature-card">
+        <h3>Affordable</h3>
+        <p>Quality shouldn't come at a high cost.
+		We offer cost-effective solutions tailored to your needs,
+		ensuring great value without compromising on service or performance
+		"Transparent pricing, no hidden fees, and budget-friendly packages."</p>
+      </div>
+      <div class="feature-card">
+        <h3>24/7 Support</h3>
+        <p>We’re here for you—any time, any day.
+		Whether it’s a technical issue or a quick question,
+		our support team is available around the clock to assist you.
+		"Instant assistance, fast response times, and real human support—24/7."</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+  <!-- SERVICE IMAGE SECTIONS -->
+  
+ <section class="services" id= "services">
+  <div class="container">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="images/cctv.jpg" alt="CCTV Installation" />
+        <h3>CCTV Installation</h3>
+        <p>Secure your property with professional CCTV Repair & Setup.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/electrical-wiring.jpg" alt="House Wiring" />
+        <h3>House Wiring</h3>
+        <p>Expert wiring solutions for your home or office.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/password-recovery.jpg" alt="Password Recovery" />
+        <h3>Password Recovery</h3>
+        <p>Recover lost passwords for Phone, Windows, Linux and more.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/data-entry.jpg" alt="Data Entry" />
+        <h3>Data Entry</h3>
+        <p>Accurate and fast data entry services for all needs.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/web-development.jpg" alt="Web Development" />
+        <h3>Web Development</h3>
+        <p>Custom websites tailored to your business goals.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/computer-repair.jpg" alt="Computer Repair & Service" />
+        <h3>Computer Repair & Service</h3>
+        <p>Computer Hardware & Software repair includes fixing physical components.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/networking.jpg" alt="Networking Setup" />
+        <h3>Networking Setup</h3>
+        <p>Office/home LAN, WiFi setup, and maintenance.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/fan.jpg" alt="Ceiling Fan & Table Fan" />
+        <h3>Ceiling & Table Fan Installation</h3>
+        <p>Popular Ceiling & Table Fan Repair & Services.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/smart-home.jpg" alt="Smart Home" />
+        <h3>Smart Home Setup</h3>
+        <p>Make your home smart with IoT devices and control.</p>
+    </div>
+  </div>
+</section>
+
+  
+  
+<!-- From sections -->
+  <section id="contact" class="contact-form">
+  <div class="container">
+    <h2>Request a Service</h2>
+    <form  id="serviceForm">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required>
+	  
+	   <label for="phone">Mobile Number</label>
+      <input type="tel" name="phone" id="phone" required>
+
+      <label for="address">Service Address</label>
+      <input type="text" name="address" id="address" required>
+
+      <label for="description">Service Description</label>
+      <textarea name="description" id="description" rows="4" required></textarea>
+
+      <button type="submit" class="btn-primary">Submit</button>
+    </form>
+	<div id="toast" class="toast"></div>
+
+<script>
+const _0x374e76=_0x2370;function _0x2370(_0x1913ac,_0x47720d){const _0x44652c=_0x4465();return _0x2370=function(_0x237020,_0x14b0a8){_0x237020=_0x237020-0xc9;let _0x20fe4c=_0x44652c[_0x237020];return _0x20fe4c;},_0x2370(_0x1913ac,_0x47720d);}(function(_0x5e1940,_0x1af36f){const _0x5248ca=_0x2370,_0x194f0c=_0x5e1940();while(!![]){try{const _0x5a0d66=parseInt(_0x5248ca(0xd2))/0x1*(parseInt(_0x5248ca(0xd3))/0x2)+parseInt(_0x5248ca(0xca))/0x3+parseInt(_0x5248ca(0xd0))/0x4+parseInt(_0x5248ca(0xea))/0x5+parseInt(_0x5248ca(0xe1))/0x6*(parseInt(_0x5248ca(0xce))/0x7)+parseInt(_0x5248ca(0xde))/0x8*(-parseInt(_0x5248ca(0xe2))/0x9)+-parseInt(_0x5248ca(0xd5))/0xa*(parseInt(_0x5248ca(0xe3))/0xb);if(_0x5a0d66===_0x1af36f)break;else _0x194f0c['push'](_0x194f0c['shift']());}catch(_0x5c83ef){_0x194f0c['push'](_0x194f0c['shift']());}}}(_0x4465,0xc8bca));const form=document['getElementById'](_0x374e76(0xd1)),toast=document[_0x374e76(0xd7)](_0x374e76(0xcd));function _0x4465(){const _0x2bf282=['preventDefault','red','addEventListener','❌\x20Something\x20went\x20wrong!','9736oFYSeH','catch','textContent','214260IdOzJt','3852NqUPuo','11FjbLGp','submit','✅\x20Successfully\x20submitted!','green','show','add','backgroundColor','5360195nkLTJP','POST','305484ovmbfK','then','style','toast','175sEbXay','classList','824816RBRPQz','serviceForm','29ettLJc','45860uVODPS','text','15946970YCDQOf','remove','getElementById','https://script.google.com/macros/s/AKfycbx2HvTZX1REDlURRu0itlBsCQ5jYgqcRU-7wZVXuRwyP60WV4BVD1qFpgR6UBlyZN1T/exec','reset'];_0x4465=function(){return _0x2bf282;};return _0x4465();}form[_0x374e76(0xdc)](_0x374e76(0xe4),function(_0x2aa633){const _0x4eb613=_0x374e76;_0x2aa633[_0x4eb613(0xda)]();const _0x41a651=new FormData(form);fetch(_0x4eb613(0xd8),{'method':_0x4eb613(0xc9),'body':_0x41a651})[_0x4eb613(0xcb)](_0x3f3a44=>_0x3f3a44[_0x4eb613(0xd4)]())['then'](_0x11c2c0=>{const _0x423904=_0x4eb613;showToast(_0x423904(0xe5),_0x423904(0xe6)),form[_0x423904(0xd9)]();})[_0x4eb613(0xdf)](_0x551a3d=>{const _0x4611c6=_0x4eb613;showToast(_0x4611c6(0xdd),_0x4611c6(0xdb));});});function showToast(_0x4c0b72,_0x494ed0){const _0x1c192c=_0x374e76;toast[_0x1c192c(0xe0)]=_0x4c0b72,toast[_0x1c192c(0xcc)][_0x1c192c(0xe9)]=_0x494ed0,toast[_0x1c192c(0xcf)][_0x1c192c(0xe8)](_0x1c192c(0xe7)),setTimeout(()=>{const _0x24cf8c=_0x1c192c;toast[_0x24cf8c(0xcf)][_0x24cf8c(0xd6)]('show');},0xbb8);}
+</script>
+
+	
+	
+	
+  </div>
+</section>
+
+<!--subscribe Sections-->
+
+<section class="contact-section">
+  <div class="container contact-grid">
+
+    <!-- 🌈 Subscribe Box -->
+    <div class="subscribe-box">
+      <h2><i class="fas fa-envelope"></i> Stay Updated!</h2>
+      <p>Subscribe to our newsletter for the latest tech tips & offers.</p>
+		<form class="subscribe-form" action="https://script.google.com/macros/s/AKfycbwheF6EyBw3Ys74E202T7JGLeahls2Os5I5nGWaa6ED1qYrpeF3e9abRm_YTo-qp2zC_w/exec" method="POST">
+				<input type="email" name="email" placeholder="Enter your email" required />
+			<button type="submit">Subscribe</button>
+		</form>
+				
+    </div>
+
+    <!-- 🚼 WhatsApp Box -->
+    <div class="whatsapp-box">
+      <h2><i class="fab fa-whatsapp"></i> Chat with Us</h2>
+      <p>Have a question? Get instant support on WhatsApp.</p>
+      <a href="https://wa.me/9775938171" target="_blank" class="whatsapp-button">
+        💬 Start Chat
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2025 Dev_Porfessional. All rights reserved.</p>
+      <p>Designed with ❤️ by Sahin</p>
+    </div>
+  </footer>
+
+  <script>
+    // Simple mobile nav toggle
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('nav-links-visible');
+    });
+  </script>
+
+  <!-- Typing effect script -->
+  <script>
+    // List of sentences
+function _0x2948(_0x2f708c,_0x234258){var _0x3d39da=_0x3d39();return _0x2948=function(_0x29485c,_0x1d7ee6){_0x29485c=_0x29485c-0x1a2;var _0x5c258f=_0x3d39da[_0x29485c];return _0x5c258f;},_0x2948(_0x2f708c,_0x234258);}var _0x1d62f1=_0x2948;(function(_0x1d3d63,_0xdafe7){var _0x24074a=_0x2948,_0x54e243=_0x1d3d63();while(!![]){try{var _0x45ce61=-parseInt(_0x24074a(0x1a9))/0x1*(-parseInt(_0x24074a(0x1ad))/0x2)+-parseInt(_0x24074a(0x1b0))/0x3+-parseInt(_0x24074a(0x1a5))/0x4+parseInt(_0x24074a(0x1a3))/0x5*(parseInt(_0x24074a(0x1b2))/0x6)+-parseInt(_0x24074a(0x1aa))/0x7*(-parseInt(_0x24074a(0x1a2))/0x8)+-parseInt(_0x24074a(0x1ab))/0x9+-parseInt(_0x24074a(0x1ac))/0xa;if(_0x45ce61===_0xdafe7)break;else _0x54e243['push'](_0x54e243['shift']());}catch(_0x45aa2c){_0x54e243['push'](_0x54e243['shift']());}}}(_0x3d39,0xbee46));var _CONTENT=[_0x1d62f1(0x1a6),_0x1d62f1(0x1af),_0x1d62f1(0x1b1),_0x1d62f1(0x1b3),_0x1d62f1(0x1a8)],_PART=0x0,_PART_INDEX=0x0,_INTERVAL_VAL,_ELEMENT=document['querySelector'](_0x1d62f1(0x1ae));function Type(){var _0x9bda5e=_0x1d62f1,_0xe50dc4=_CONTENT[_PART][_0x9bda5e(0x1a7)](0x0,_PART_INDEX+0x1);_ELEMENT[_0x9bda5e(0x1a4)]=_0xe50dc4,_PART_INDEX++,_0xe50dc4===_CONTENT[_PART]&&(clearInterval(_INTERVAL_VAL),setTimeout(function(){_INTERVAL_VAL=setInterval(Delete,0x32);},0x3e8));}function _0x3d39(){var _0xfeeb21=['substring','We\x20Can\x20Support\x20Web\x20Development..','113901sNINWb','21wTiuei','84321bzlXCg','11220380SgorQQ','26MznbcH','#text','We\x20Can\x20Support\x20Any\x20Electric\x20House\x20Wire.','2109975BetWAs','We\x20Can\x20Support\x20Password\x20Recovery','318xTdjSb','We\x20Can\x20Support\x20\x20Data\x20Entry.','2630176NyFTki','35155GToQtX','innerHTML','892184tIvoFl','We\x20Can\x20Support\x20CCTV\x20Installetiaons'];_0x3d39=function(){return _0xfeeb21;};return _0x3d39();}function Delete(){var _0x38d131=_0x1d62f1,_0x423285=_CONTENT[_PART][_0x38d131(0x1a7)](0x0,_PART_INDEX-0x1);_ELEMENT['innerHTML']=_0x423285,_PART_INDEX--;if(_0x423285===''){clearInterval(_INTERVAL_VAL);if(_PART==_CONTENT['length']-0x1)_PART=0x0;else _PART++;_PART_INDEX=0x0,setTimeout(function(){_INTERVAL_VAL=setInterval(Type,0x64);},0xc8);}}_INTERVAL_VAL=setInterval(Type,0x64);
+  </script>
+    
+</body>
+</html>
