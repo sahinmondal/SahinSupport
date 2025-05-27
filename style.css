@@ -505,3 +505,30 @@ body {
     align-items: stretch;
   }
 }
+
+/* footer styles */
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #1da1f2; /* Change hover color as per platform if you like */
+}
+
+
+
+/* SCHOOLERSHIP PORTAL */
+
+
+
+
+
+
