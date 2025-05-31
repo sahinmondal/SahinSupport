@@ -525,7 +525,110 @@ body {
 
 
 
-/* SCHOOLERSHIP PORTAL */
+/* protfolio Our Team Members*/
+.team-section {
+  background: #f4f9ff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 36px;
+  color: #012d5e;
+}
+
+.team-section .desc {
+  max-width: 700px;
+  margin: 10px auto 30px;
+  font-size: 16px;
+  color: #444;
+}
+
+.carousel-wrapper {
+  position: relative;
+  overflow: hidden;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.team-card {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .team-card {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+}
+
+.quote-box {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 15px;
+  font-style: italic;
+  font-size: 15px;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quote-box::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+
+.team-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto;
+}
+
+.team-card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #012d5e;
+}
+
+.team-card p {
+  font-size: 14px;
+  color: #888;
+}
+
+.indicators {
+  margin-top: 20px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.dot.active {
+  background-color: #012d5e;
+}
+
 
 
 
